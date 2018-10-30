@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivial-Game</title>
+    <!-- Added link to the jQuery Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Added a link to Css file-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Responsive screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <div id="Rect1">
+            <h1 id="hTag1"> Welcome to Trivia-Game!</h1>
+            <hr>
+            <hr>
+            <button id="startbutton">Start</button>
+            <button id="submitbutton">submit</button>
+
+            <div id="thirdpart">
+                <h2>Well DONE!</h2>
+                <p> Correct Answer :
+                    <span id="result1"></span>
+                </p>
+                <p> InCorrect Answer :
+                    <span id="result2"></span>
+                </p>
+                <p> UnAnswered :
+                    <span id="result3"></span>
+                </p>
+            </div>
+
+
+            <div id="questionnaire" runat="server" class="mydiv">
+                <h2>Time remaining:
+                    <span id="timeout">30</span>
+                </h2>
+                <br>
+                <form id="form1">
+                    <div id="question1">
+                        <p>Where is the capital of Vietnam?</p>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio1" value="Rajah">Hanoi
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio1" value="Bo">Hochiminh city
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio1" value="Iago">Hue
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio1" value="Jack">Hoian
+                        </label>
+                    </div>
+                    <div id="question2">
+                        <p>Who is the oldest person in the world living today?</p>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio2" id="myRadio1" value="Right Foot">Violet Brown
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio2" value="Left Hand">Jeanne Calment
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio2" value="Left Foot">Nasaza Nomaka
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio2" value="Right Hand">Richard Overton
+                        </label>
+                    </div>
+                    <div id="question3">
+                        <p>Which countries consume the most beers?</p>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio3" value="Rocky Mountain">Czech Republic
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio3" value="Forest">Austria
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio3" value="Desert">Germany
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio3" value="Pride Rock">Poland
+                        </label>
+                    </div>
+                    <div id="question4">
+                        <p>Who palyed Scarlett in Gone with the wind?</p>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio4" value="Dinah">Vivien Leigh
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio4" value="Sammie">Ava Gardner
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio4" value="Kat">Olivia de Haviland
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio4" value="Luna">Ingeid Bergman
+                        </label>
+                    </div>
+                    <div id="question5">
+                        <p>Which country is the smallest country in the world?</p>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio5" value="2 Dozen">Vatican city
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio5" value="5 Dozen">Monaco
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio5" value="5000">Nauru
+                        </label>
+                        <label class="radio-inline">
+                            <input class="radioBtn" type="radio" name="optradio5" value="0">Tuvalu
+                        </label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
